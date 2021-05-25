@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>780208750630-9goiqadr5dhanda7761rbl033tji170q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.780208750630-9goiqadr5dhanda7761rbl033tji170q</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>780208750630-ic5m9usqs9mfrjcpd0ifa1bbaj4kp8jn.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDGFYnDkl32trGtH02D6u2L57sJgDsAD04</string>
+	<key>GCM_SENDER_ID</key>
+	<string>780208750630</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.apps.abshr</string>
+	<key>PROJECT_ID</key>
+	<string>abshr-be6d4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>abshr-be6d4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:780208750630:ios:684d300f22e452bc6866e7</string>
+	<key>DATABASE_URL</key>
+	<string>https://abshr-be6d4.firebaseio.com</string>
+</dict>
+</plist>

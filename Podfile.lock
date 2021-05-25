@@ -1,0 +1,291 @@
+PODS:
+  - Alamofire (5.2.2)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - FBSDKCoreKit (7.1.1):
+    - FBSDKCoreKit/Basics (= 7.1.1)
+    - FBSDKCoreKit/Core (= 7.1.1)
+  - FBSDKCoreKit/Basics (7.1.1)
+  - FBSDKCoreKit/Core (7.1.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (7.1.1):
+    - FBSDKLoginKit/Login (= 7.1.1)
+  - FBSDKLoginKit/Login (7.1.1):
+    - FBSDKCoreKit (~> 7.1.1)
+  - Firebase/Analytics (6.29.0):
+    - Firebase/Core
+  - Firebase/Auth (6.29.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.7.1)
+  - Firebase/Core (6.29.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.7.0)
+  - Firebase/CoreOnly (6.29.0):
+    - FirebaseCore (= 6.9.2)
+  - Firebase/Messaging (6.29.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.6.1)
+  - FirebaseAnalytics (6.7.0):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.4)
+    - GoogleAppMeasurement (= 6.7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/MethodSwizzler (~> 6.7)
+    - GoogleUtilities/Network (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+    - nanopb (~> 1.30905.0)
+  - FirebaseAuth (6.7.1):
+    - FirebaseCore (~> 6.8)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (6.9.2):
+    - FirebaseCoreDiagnostics (~> 1.3)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.5.0):
+    - GoogleDataTransport (~> 7.0)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30905.0)
+  - FirebaseInstallations (1.5.0):
+    - FirebaseCore (~> 6.8)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.5.1):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+  - FirebaseMessaging (4.6.1):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstanceID (~> 4.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Reachability (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - GoogleAppMeasurement (6.7.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/MethodSwizzler (~> 6.7)
+    - GoogleUtilities/Network (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+    - nanopb (~> 1.30905.0)
+  - GoogleDataTransport (7.1.0):
+    - nanopb (~> 1.30905.0)
+  - GoogleMaps (3.9.0):
+    - GoogleMaps/Maps (= 3.9.0)
+  - GoogleMaps/Base (3.9.0)
+  - GoogleMaps/Maps (3.9.0):
+    - GoogleMaps/Base
+  - GoogleMLKit/MLKitCore (0.64.0):
+    - MLKitCommon (~> 0.64.0)
+  - GoogleMLKit/Translate (0.64.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitTranslate (~> 0.64.0)
+  - GooglePlaces (3.9.0):
+    - GoogleMaps/Base (= 3.9.0)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - GoogleToolboxForMac/Logger (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.2)":
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.2)
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.2)"
+  - GoogleToolboxForMac/StringEncoding (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GoogleUtilities/AppDelegateSwizzler (6.7.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.7.1):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.7.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.7.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.7.1)"
+  - GoogleUtilities/Reachability (6.7.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.7.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilitiesComponents (1.0.0):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
+  - ImageSlideshow (1.9.1):
+    - ImageSlideshow/Core (= 1.9.1)
+  - ImageSlideshow/Alamofire (1.9.1):
+    - AlamofireImage (~> 4.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.9.1)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Localize-Swift (2.0.0)
+  - MLKitCommon (0.64.0):
+    - GoogleDataTransport (~> 7.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 6.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.12)
+  - MLKitNaturalLanguage (0.64.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleToolboxForMac/StringEncoding (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - MLKitCommon (~> 0.64.0)
+    - Protobuf (~> 3.12)
+  - MLKitTranslate (0.64.0):
+    - MLKitNaturalLanguage (~> 0.64)
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - PageMenu (2.0.0)
+  - PromisesObjC (1.2.9)
+  - Protobuf (3.12.0)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - SVProgressHUD (2.2.5)
+  - SVPullToRefresh (0.4.1)
+  - SwiftlySlider (0.7.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - FBSDKLoginKit
+  - Firebase/Analytics
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps
+  - GoogleMLKit/Translate
+  - GooglePlaces
+  - GoogleSignIn
+  - ImageSlideshow
+  - ImageSlideshow/Alamofire
+  - IQKeyboardManagerSwift
+  - Localize-Swift (~> 2.0)
+  - PageMenu
+  - SDWebImage
+  - SVProgressHUD
+  - SVPullToRefresh
+  - SwiftlySlider
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AppAuth
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleMLKit
+    - GooglePlaces
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - Localize-Swift
+    - MLKitCommon
+    - MLKitNaturalLanguage
+    - MLKitTranslate
+    - nanopb
+    - PageMenu
+    - PromisesObjC
+    - Protobuf
+    - SDWebImage
+    - SVProgressHUD
+    - SVPullToRefresh
+    - SwiftlySlider
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
+  FBSDKLoginKit: 1a61d79e2b25e2fc0d03dccab1e34b38bbdf2546
+  Firebase: 57957c8d6eb3d8b80a560b1dc58be24724b89ff2
+  FirebaseAnalytics: aa522dce9fd93002ba1554467d23ce7092323000
+  FirebaseAuth: a818d73466d51db897d3bf3c0f3baa3dae7fd4c0
+  FirebaseCore: 7930a1946517d94256d857f97371ed993b55f7bd
+  FirebaseCoreDiagnostics: 7535fe695737f8c5b350584292a70b7f8ff0357b
+  FirebaseInstallations: 3c520c951305cbf9ca54eb891ff9e6d1fd384881
+  FirebaseInstanceID: c4ad474b87787afd27d09541800620993b457d6f
+  FirebaseMessaging: 942cfe05b4f53c95ab8959395ca35c200398b2f0
+  GoogleAppMeasurement: 345d365fd105e6682bf5084783a5352a3db26820
+  GoogleDataTransport: af0c79193dc59acd37630b4833d0dc6912ae6bd5
+  GoogleMaps: 4b5346bddfe6911bb89155d43c903020170523ac
+  GoogleMLKit: 3c1f895592d95625eb57b8e66d4f13a5d36f9b49
+  GooglePlaces: 1634d019549b969d40fe0ccb0b9513055adebe01
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
+  GoogleUtilities: e121a3867449ce16b0e35ddf1797ea7a389ffdf2
+  GoogleUtilitiesComponents: a69c0b3b369ba443e988141e75ef49d9010b1c80
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  ImageSlideshow: 67184be896a28472bd3b906c33ce4e0734aa3d22
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  MLKitCommon: dc2909c96dbf7f5a75b86a3d2fa1b92ff3f6a30b
+  MLKitNaturalLanguage: b127a0f557c0f2c375432e3737e6673889ff2bec
+  MLKitTranslate: 458b7dfaa8cfb2a0476c7b8b25b02ad3f136538f
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  PageMenu: 9c38fd7e0d9ef4b1408320f55bb907bbc0e538dc
+  PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  SwiftlySlider: 1c9b3dd207a50b83983b29317e3247711d387e14
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 44dd3bbe7a9927778cc8b730a717345f59cb96ab
+
+COCOAPODS: 1.10.0.rc.1
